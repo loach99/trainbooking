@@ -46,7 +46,6 @@ function dayOfMonth(year: number, month: number): number[] {
   for (let i = 1; i <= numDate; i++) {
     arrDay.push(i);
   };
-
   return arrDay;
 };
 
