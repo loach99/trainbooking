@@ -1,0 +1,96 @@
+.main-reviews {
+  height: 600px;
+}
+
+.reviews-title {
+  margin: 150px auto auto 252px;
+  font-family: 'Roboto-medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #292929;
+}
+
+.reviews {
+  display: flex;
+  width: 1454px;
+  overflow: hidden;
+  margin: 70px 295px auto 255px;
+}
+
+.review {
+  display: flex;
+  margin-right: 85px;
+}
+
+.reviews-carousel {
+  display: flex;
+  width: 1454px;
+  height: 207px;
+  transition: transform 1s ease-in-out;
+}
+
+.review-image {
+  width: 207px;
+  height: 207px;
+  margin-right: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-name {
+  font-family: 'Roboto-medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.review-text {
+  width: 400px;
+  margin-top: 30px;
+  font-family: 'Roboto-light';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #918F94;
+}
+
+.review-text::after, .review-text::before {
+  content: '"';
+  font-family: 'Roboto-medium';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #928F94;
+}
+
+.review-text::after {
+  vertical-align: top;
+}
+
+.carousel-dots {
+  display: flex;
+  margin: 137px 896px auto 884px;
+  width: 140px;
+  justify-content: space-between;
+}
+
+.carousel-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #E5E5E5;
+  cursor: pointer;
+}
+
+.active-dot {
+  border-radius: 50%;
+  transform: scale(1.2);
+  background-color: #C4C4C4;;
+}

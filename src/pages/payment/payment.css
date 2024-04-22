@@ -1,0 +1,215 @@
+.payment {
+  width: 960px;
+  background-color: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.data-head, .method-head {
+  display: flex;
+  align-items: center;
+  height: 107px;
+  background-color: #F9F9F9;
+}
+
+.data-head {
+  border-bottom: 1px dashed #928F94;
+}
+
+.data-head-title, .method-head-title {
+  margin-left: 35px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #292929;
+}
+
+.data-inputs-name {
+  display: flex;
+  margin-left: 35px;
+}
+
+.data-names-label {
+ margin-top: 30px;
+}
+
+.data-names-label > p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #292929;
+  margin-bottom: 10px;
+}
+
+.data-names-input {
+  width: 280px;
+  height: 50px;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  margin-right: 25px;
+  padding-left: 15px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+  text-transform: capitalize;
+}
+
+.data-inputs-phone {
+  margin-top: 54px;
+  margin-left: 35px;
+}
+
+.data-phone-label, .data-mail-label {
+  display: block;
+  width: 360px;
+}
+
+.data-phone-label > p, .data-mail-label > p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #292929;
+  margin-bottom: 10px;
+}
+
+.data-phone-input, .data-mail-input {
+  width: 360px;
+  height: 50px;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+  padding-left: 15px;
+}
+
+.data-phone-input::placeholder , .data-mail-input::placeholder {
+  color: #C4C4C4;
+}
+
+.data-inputs-mail {
+  margin-top: 38px;
+  margin-left: 35px;
+}
+
+.payment-method {
+  margin-top: 90px;
+}
+
+.method-head {
+  border-top: 1px dashed #928F94;
+  border-bottom: 1px dashed #928F94;
+}
+
+.method-check-online {
+  display: flex;
+  margin: 50px auto 30px 35px;
+}
+
+.method-check-cash {
+  display: flex;
+  margin: 58px auto 82px 35px;
+}
+
+.method-check-input, .method-check-input-ok {
+  width: 28px;
+  height: 28px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.method-check-input {
+  border: 1px solid #928F94;
+}
+
+.method-check-input-ok {
+  border: 1px solid #FFA800;
+  background-image: url(../../media/images/ok.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.method-check-text, .method-check-text-ok {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.method-check-text {
+  color: #928F94;
+}
+
+.method-check-text-ok {
+  color: #FFA800;
+}
+
+.methods-payment {
+  border-bottom: 1px dashed #928F94;
+}
+
+.methods-payment-text {
+  display: flex;
+  margin-left: 35px;
+  margin-bottom: 64px;
+}
+
+.methods-payment-text > p {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+  width: 190px;
+  margin-right: 55px;
+
+}
+
+.payment-button, .payment-button-ok {
+  display: block;
+  width: 323px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 116px;
+  margin-left: auto;
+}
+
+.payment-button-ok {
+  background-color: #FFA800;
+  cursor: pointer;
+}
+
+.payment-button {
+  background-color: #928F94;
+  cursor: not-allowed;
+}
+
+.payment-button-ok:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}

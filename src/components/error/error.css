@@ -1,0 +1,39 @@
+.error, .error-transform {
+  display: flex;
+  position: absolute;
+  background-color: #FFB59E;
+  width: 315px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.error > p, .error-transform > p {
+  position: relative;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.error > p::before, .error-transform > p::before {
+  content: '';
+  position: absolute;
+  background-color: #FFB59E;
+  transform: rotate(45deg);
+  width: 15px;
+  height: 15px;
+  top: -12px;
+  left: 145px;
+}
+
+.error {
+  top: 195px;
+  left: 20px;
+}
+
+.error-transform {
+  top: 410px;
+  left: 245px;
+}

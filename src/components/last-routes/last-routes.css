@@ -1,0 +1,97 @@
+.last-title {
+  font-family: 'Roboto-medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.last-list {
+  list-style: none;
+}
+
+.last-list-item {
+  width: 360px;
+  height: 160px;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-shadow: 0px 2px 2px rgba(62, 60, 65, 0.25);
+  margin-bottom: 17px;
+}
+
+.route-from-to {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  margin: 18px 20px 24px 20px;
+}
+
+.route-city-text {
+  text-transform: capitalize;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #292929;
+}
+
+.route-station-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #928F94;
+}
+
+.route-to {
+  text-align: end;
+}
+
+.route-facilities-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12px 14px 18px;
+}
+
+.route-facilities {
+  width: 92px;
+  height: 20px;
+  background-image: url(../../media/images/facilities.png);
+  align-self: center;
+}
+
+.route-start-price {
+  display: flex;
+  align-items: baseline;
+}
+
+.price-start-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #928F94;
+}
+
+.price-start-number {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 35px;
+  color: #FFA800;
+  margin: 0 5px;
+}
+
+.sign-rub {
+  width: 20px;
+  height: 25px;
+  background-image: url(../../media/images/sign.png);
+}

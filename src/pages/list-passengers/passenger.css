@@ -1,0 +1,514 @@
+/* List passengers */
+
+.add-passengers {
+  display: flex;
+  width: 960px;
+  height: 97px;
+  margin-bottom: 100px;
+  background-color: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.add-passenger-title {
+  margin-left: 25px;
+  align-self: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #292929;
+}
+
+.add-passenger-img {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../media/images/plus.png);
+  margin-right: 38px;
+  margin-left: auto;
+  align-self: center;
+}
+
+.list-passenger-btn, .list-passenger-btn-ok {
+  display: block;
+  width: 222px;
+  height: 60px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  margin-left: auto;
+}
+
+.list-passenger-btn {
+  background-color: #928F94;
+  cursor: not-allowed;
+}
+
+.list-passenger-btn-ok {
+  background-color: #FFA800;
+  cursor: pointer;
+}
+
+.list-passenger-btn-ok:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+/* Passenger */
+
+.passenger {
+  width: 960px;
+  background-color: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  margin-bottom: 45px;
+}
+
+.pass-header {
+  display: flex;
+  height: 107px;
+  background-color:#F9F9F9;
+  border-bottom: 1px dashed #928F94;
+}
+
+.pass-header-plus {
+  display: flex;
+  height: 107px;
+  background-color: #FFFFFF;
+}
+
+.pass-header-up, .pass-header-down {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin: 43px 16px 32px 23px;
+}
+
+.pass-header-up {
+  background-image: url(../../media/images/pass-up.png);
+}
+
+.pass-header-down {
+  background-image: url(../../media/images/pass-down.png);
+}
+
+.pass-header-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #292929;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.pass-header-close {
+  display: flex;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  background-image: url(../../media/images/close.png);
+  margin: 53px 40px 42px auto;
+}
+
+.pass-choice-age {
+  position: relative;
+  margin: 38px auto auto 35px;
+}
+
+
+.pass-select {
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  width: 280px;
+  height: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.pass-select::before {
+  content: '';
+  position: absolute;
+  left: 250px;
+  width: 12px;
+  height: 5px;
+  background-image: url(../../media/images/select.png);
+}
+
+.list-age-select {
+  position: absolute;
+  width: 280px;
+  height: 95px;
+  top: -1px;
+  background-color: #F4F3F6;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.select-age, .select-child, .select-age-disable, .select-child-disable {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+  height: 50%;
+  padding-left: 10px;
+}
+
+.select-age, .select-child {
+  cursor: pointer;
+}
+
+.select-age-disable, .select-child-disable {
+  cursor: not-allowed;
+}
+
+.select-age {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.pass-form-names {
+  display: flex;
+  margin: 45px 35px auto 35px;
+}
+
+.pass-names-label > p, .choice-gender-text, .pass-birth-label > p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #928F94;
+  margin-bottom: 10px;
+}
+
+.pass-names-input {
+  width: 280px;
+  height: 50px;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  margin-right: 25px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+
+.pass-form-birth {
+  display: flex;
+  margin: 50px auto auto 35px;
+}
+
+.choice-gender {
+  display: flex;
+  width: 204px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  margin-right: 35px;
+}
+
+.gender-human, .gender-choice-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto-black';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+  width: 50%;
+}
+
+.gender-choice-color {
+  background-color: #FFA800;
+}
+
+.pass-birth-input {
+  width: 240px;
+  height: 50px;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+}
+
+.pass-birth-input::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #C4C4C4;
+}
+
+.pass-form-check {
+  display: flex;
+  margin: 45px auto 30px 35px;
+}
+
+.pass-check-input, .pass-check-input-ok {
+  width: 28px;
+  height: 28px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.pass-check-input {
+  border: 1px solid #928F94;
+}
+
+.pass-check-input-ok {
+  border: 1px solid #FFA800;
+  background-image: url(../../media/images/ok.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pass-check-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #292929;
+  align-self: center;
+}
+
+/* forms - docs */
+
+.pass-form-docs {
+  display: flex;
+  border-top: 1px dashed #928F94;
+  border-bottom: 1px dashed #928F94;
+}
+
+.pass-docs-select {
+  position: relative;
+  margin: 35px 35px 33px 35px;
+}
+
+.select-docs, .select-doc-passport, .select-doc-birth {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #292929;
+}
+
+.select-docs {
+  display: flex;
+  position: relative;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding-right: 90px;
+  min-width: 205px;
+  height: 50px;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.select-docs::before {
+  content: '';
+  position: absolute;
+  right: 12px;
+  width: 12px;
+  height: 5px;
+  background-image: url(../../media/images/select.png);
+}
+
+.list-docs-select, .list-docs-select-long {
+  position: absolute;
+  height: 95px;
+  top: 28px;
+  background-color: #F4F3F6;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.list-docs-select {
+  width: 205px;
+}
+
+.list-docs-select-long {
+  width: 334px;
+}
+
+.select-doc-passport, .select-doc-birth {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.select-doc-passport {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.pass-docs-series, .pass-docs-number, .pass-docs-birth {
+  margin: 35px 35px 33px 0;
+}
+
+.docs-series-label > p, .pass-docs-select > p, .docs-number-label > p, .docs-birth-label > p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #928F94;
+  margin-bottom: 10px;
+}
+
+.docs-series-input, .docs-number-input, .docs-birth-input {
+  width: 205px;
+  height: 50px;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  padding-left: 10px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+}
+
+.docs-birth-input {
+  text-transform: uppercase;
+}
+
+.docs-series-input::placeholder, .docs-number-input::placeholder, .docs-birth-input::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #C4C4C4;
+}
+
+.pass-button {
+  display: block;
+  margin: 37px 31px 28px auto;
+  width: 303px;
+  height: 52px;
+  border: 1px solid #292929;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #292929;
+  cursor: pointer;
+}
+
+.pass-button:hover {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFA800;
+  border: 1px solid #292929;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+.pass-valid {
+  display: flex;
+  height: 120px;
+  background-color: #FFB59E;
+}
+
+.pass-footer-ok {
+  display: flex;
+  background-color: #B2F6A1;
+}
+
+.pass-valid-close, .pass-valid-ok {
+  display: flex;
+  margin: 44px 20px 44px 24px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pass-valid-close {
+  background-image: url(../../media/images/valid-close.png);
+}
+
+.pass-valid-ok {
+  background-image: url(../../media/images/valid-ok.png);
+}
+
+.pass-valid-text {
+  align-self: center;
+  width: 480px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #292929;
+  white-space: pre-line;
+}
+
+.pass-valid-text-ok {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  align-self: center;
+}

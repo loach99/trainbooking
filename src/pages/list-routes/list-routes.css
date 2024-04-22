@@ -1,0 +1,145 @@
+.list-routes {
+  width: 960px;
+}
+
+.no-routes {
+  margin: 0 280px;
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.header-list-routes {
+  display: flex;
+  margin: 0px 257px 47px 0;
+  width: 100%;
+}
+
+.list-routes-found {
+  display: flex;
+}
+
+.list-routes-found > p,
+.list-routes-found > span,
+.list-routes-sort > p,
+.list-routes-show > p,
+.list-routes-show > span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #928F94;
+  margin-right: 5px;
+}
+
+.list-routes-sort {
+  display: flex;
+  position: relative;
+  margin-left: 330px;
+  margin-right: 50px;
+}
+
+
+.list-routes-sort-select {
+  position: absolute;
+  left: 135px;
+  top: -8px;
+  width: 140px;
+  background-color: #F7F5F9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.list-routes-sort-select > div {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3E3C41;
+  height: 21px;
+  padding: 9px 7px;
+  border-bottom: 1px solid #E5E5E5;
+  cursor: pointer;
+}
+
+.list-routes-sort-select > div:hover {
+  background-color: #FFCA62;
+}
+
+.sort-selected {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3E3C41;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.list-routes-show {
+  display: flex;
+  margin-left: auto;
+}
+
+.list-routes-show > span {
+  cursor: pointer;
+}
+
+.footer-list-routes {
+  margin-top: 140px;
+}
+
+.list-routes-pages {
+  display: flex;
+}
+
+.list-routes-pages-previous, .list-routes-page, .list-routes-pages-next {
+  width: 85px;
+  height: 75px;
+  border: 2px solid #C4C4C4;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+
+.list-routes-pages-previous {
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../media/images/left.png);
+}
+
+.list-routes-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #928F94;
+}
+
+.choice-page {
+  color: #FFA800;
+  border: 2px solid #FFA800;
+}
+
+.list-routes-page:hover {
+  background-color: #FFA800;
+  color: #FFFFFF;
+  transition: color 200ms ease-in-out;
+  transition: background-color 300ms ease-in-out;
+}
+
+.list-routes-pages-next {
+  background-image: url(../../media/images/right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}

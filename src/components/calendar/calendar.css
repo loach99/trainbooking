@@ -1,0 +1,133 @@
+.calendar-from {
+  position: absolute;
+  width: 325px;
+  height: 300px;
+  top: 60px;
+  z-index: 1;
+}
+
+.calendar-to {
+  position: absolute;
+  width: 325px;
+  height: 300px;
+  top: 60px;
+  left: 365px;
+  z-index: 1;
+}
+
+.cal-triangle {
+  height: 11px;
+  width: 11px;
+  background-color: white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 4px;
+  left: 157px;
+}
+
+.cal-main {
+  height: 97%;
+  margin-top: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: white;
+  border-radius: 4px;
+}
+
+.cal-month {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.cal-month > button {
+  cursor: pointer;
+}
+
+.prev-month, .next-month {
+  width: 50px;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.prev-month {
+  background-image: url(../../media/images/left.png);
+}
+
+.next-month {
+  background-image: url(../../media/images/right.png);
+}
+
+.cal-month-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #2D2B2F;
+  align-self: center;
+}
+
+.cal-table {
+  border-collapse: collapse;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+  height: 79%;
+  text-align: center;
+}
+
+/* .cal-table > tbody > tr > td {
+  cursor: pointer;
+} */
+
+.cal-table > tbody > tr > td:hover {
+  background-color: #C4C4C4;
+}
+
+.cal-table > thead {
+  height: 30px;
+}
+
+.date-month {
+  cursor: pointer;
+}
+
+.date-other-month {
+  color: #00000030;
+  cursor: not-allowed;
+}
+
+.date-today {
+  box-sizing: border-box;
+  background: rgba(255, 168, 0, 0.31);
+  border: 2px solid #FFA800;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.date-week-end {
+  background-color: #00000012;
+}
+
+.filter-calendar-from {
+  position: absolute;
+  z-index: 1;
+  width: 295px;
+  height: 295px;
+}
+
+.filter-calendar-to {
+  position: absolute;
+  z-index: 1;
+  width: 295px;
+  height: 295px;
+}
+
+.none {
+  display: none;
+}

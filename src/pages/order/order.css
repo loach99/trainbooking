@@ -1,0 +1,204 @@
+.order-route-title, .order-passenger-title, .order-payment-title {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  height: 95px;
+  background-color: #FFFFFF;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #292929;
+}
+
+.order-route-title {
+  border: 1px solid #C4C4C4;
+  border-bottom: none;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.order-route-btn, .passenger-container-btn, .order-payment-btn {
+  width: 233px;
+  height: 40px;
+  border: 1px solid #292929;
+  border-radius: 5px;
+  margin: 15px 22px 26px auto;
+  background-color: transparent;
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #292929;
+  cursor: pointer;
+}
+
+.order-route-btn:hover, .passenger-container-btn:hover, .order-payment-btn:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: #FFA800;
+  transition: all 200ms ease-in;
+}
+
+.order-passengers {
+  width: 960px;
+  background-color: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+
+.order-passenger-title, .order-payment-title {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.order-passenger-container {
+  display: flex;
+}
+
+.passengers-container-list, .order-payment-text {
+  width: 680px;
+  border-right: 1px dashed #E5E5E5;
+}
+
+.passengers-container-item, .passengers-container-item-border {
+  display: flex;
+  height: 218px;
+}
+
+.passengers-container-item-border {
+  border-bottom: 1px dashed #E5E5E5;
+}
+
+.passenger-container-img {
+  display: flex;
+  width: 68px;
+  height: 68px;
+  background-image: url(../../media/images/avatar.png);
+  margin: 60px 45px 17px 43px;
+}
+
+.passenger-container-ages {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #292929;
+  text-align: center;
+}
+
+.passenger-container-name {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #292929;
+  text-transform: capitalize;
+}
+
+.passenger-container-gender, .passenger-container-birth, .passenger-container-docs {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #928F94;
+  margin-bottom: 7px;
+}
+
+.passenger-container-change {
+  display: flex;
+  flex-direction: column;
+}
+
+.passenger-container-total, .passenger-container-price {
+  display: flex;
+}
+
+.passenger-container-total {
+  justify-content: center;
+  margin-top: auto;
+}
+
+.passenger-container-total > p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #292929;
+  margin-right: 30px;
+}
+
+.passenger-container-price > p {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #292929;
+}
+
+.passenger-container-btn {
+  margin-left: 25px;
+}
+
+.order-payment {
+  width: 960px;
+  background-color: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.order-payment-method {
+  display: flex;
+  height: 145px;
+}
+
+.order-payment-text {
+  width: 680px;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+  padding-top: 44px;
+  padding-left: 35px;
+}
+
+.order-payment-btn {
+  margin-top: auto;
+}
+
+.order-btn {
+  display: block;
+  margin-left: auto;
+  width: 323px;
+  height: 60px;
+  margin-top: 123px;
+  background-color: #FFA800;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all 200ms ease-in-out;
+}

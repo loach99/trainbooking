@@ -1,0 +1,13 @@
+.main-route {
+  display: flex;
+  background-color: #E5E5E5;
+}
+
+.left-side {
+  margin: 95px 85px 190px 260px;
+}
+
+.right-side {
+  margin-top: 100px;
+  margin-bottom: 140px;
+}

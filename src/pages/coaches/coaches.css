@@ -1,0 +1,823 @@
+.coaches-title {
+  font-family: 'Roboto-medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 50px;
+}
+
+.coach {
+  width: 960px;
+  background-color: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+}
+
+.choice-train-left {
+  display: flex;
+  margin: 36px auto 32px 19px;
+}
+
+.choice-train-right {
+  display: flex;
+  margin: 36px 19px 32px auto;
+}
+
+.choice-train-img-left, .choice-train-img-right {
+  display: flex;
+  width: 76px;
+  height: 60px;
+}
+
+.choice-train-img-left {
+  margin-right: 10px;
+  background-image: url(../../media/images/Subtract-right.png);
+}
+
+.choice-train-img-right {
+  margin-right: 10px;
+  margin-left: auto;
+  background-image: url(../../media/images/Subtract-left.png);
+}
+
+.choice-train-btn {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #292929;
+  width: 325px;
+  height: 60px;
+  border: 1px solid #292929;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.choice-train-btn:hover {
+  border: 1px solid #292929;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+  color: #FFA800;
+  transition: all 300ms ease-in-out;
+}
+
+.choice-train-btn:focus {
+  background-color: #FFA800;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: #292929;
+  border: none;
+}
+
+.coach-train {
+  display: flex;
+  background: #F7F6F6;
+  min-height: 125px;
+}
+
+.coach-train-route {
+  display: flex;
+  width: 240px;
+}
+
+.coach-train-img {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../media/images/train-img.png);
+  margin: auto 27px auto 35px;
+}
+
+.coach-train-desc {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.train-desc-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #3E3C41;
+  margin-bottom: 5px;
+}
+
+.train-desc-city {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #292929;
+}
+
+.coach-direction-time {
+  display: flex;
+  width: 480px;
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.coach-direction-city {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coach-time {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.coach-direction-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #292929;
+  text-transform: capitalize;
+}
+
+.coach-direction-station {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #928F94;
+}
+
+.coach-duration {
+  display: flex;
+}
+
+.coach-duration-img {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../media/images/time-img.png);
+  margin: 47px 10px 46px 35px;
+}
+
+.coach-duration-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-top: 42px;
+}
+
+.amount-tickets {
+  margin-top: 40px;
+  height: 337px;
+  border-bottom: 1px dashed #C4C4C4;;
+}
+
+.amount-tickets-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #292929;
+  margin: 0 auto 15px 20px;
+}
+
+.tickets-age {
+  display: flex;
+}
+
+.tickets-age-inputs {
+  width: 320px;
+  height: 192px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tickets-age-input {
+  width: 240px;
+  height: 50px;
+  padding-left: 15px;
+  background: #FFFFFF;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  caret-color: transparent;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #292929;
+}
+
+.tickets-age-input::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #292929;
+}
+
+.tickets-adults-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #928F94;
+  margin-top: 23px;
+  width: 240px;
+}
+
+.tickets-age-inputs:hover {
+  border: 1px solid rgba(255, 168, 0, 0.79);
+}
+
+.tickets-age-input:focus-within {
+  outline: none;
+}
+
+.tickets-age-inputs:focus-within {
+  background-color: #F7F6F6;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.coach-type-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #292929;
+  margin: 27px auto 35px 20px;
+}
+
+.coach-types {
+  display: flex;
+}
+
+.coach-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  height: 140px;
+}
+
+.type-text, .type-text-active {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+  margin-top: 20px;
+}
+
+.coach-type > span {
+  display: flex;
+  height: 50px;
+}
+
+.type-text-active {
+  color: #FFA800;
+}
+
+.type-fourth-img {
+  width: 31px;
+  background-image: url(../../media/images/fourth.png);
+}
+
+.type-third-img {
+  width: 50px;
+  background-image: url(../../media/images/third-class.png);
+}
+
+.type-second-img {
+  width: 50px;
+  background-image: url(../../media/images/second-class.png);
+}
+
+.type-first-img {
+  width: 57px;
+  background-image: url(../../media/images/first-class.png);
+}
+
+.type-fourth-img-active {
+  width: 31px;
+  background-image: url(../../media/images/fourth-take.png);
+}
+
+.type-third-img-active {
+  width: 50px;
+  background-image: url(../../media/images/third-take.png);
+}
+
+.type-second-img-active {
+  width: 50px;
+  background-image: url(../../media/images/second-take.png);
+}
+
+.type-first-img-active {
+  width: 57px;
+  background-image: url(../../media/images/first-take.png);
+}
+
+.coaches-numbering {
+  display: flex;
+  background-color: rgba(255, 168, 0, 0.44);
+  height: 37px;
+}
+
+.coaches-numbering > p {
+  margin-right: 15px;
+  align-self: center;
+}
+
+.coaches-numbers {
+  display: flex;
+  margin: auto auto auto 33px;
+  align-items: baseline;
+}
+
+.coaches-numbers-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #292929;
+}
+
+.coaches-number-text, .coaches-number-current {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-left: 5px;
+}
+
+.coaches-number-current {
+  color: #ffffff;
+}
+
+.coach-description-prices {
+  display: flex;
+  height: 160px;
+}
+
+.coach-number {
+  background-color: rgba(255, 168, 0, 0.44);
+  width: 190px;
+}
+
+.coach-number-title {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 84px;
+  color: #292929;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.coach-number-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #292929;
+}
+
+.coach-seats-amount, .coach-seats-price {
+  margin-top: 33px;
+  margin-left: 85px;
+  width: 180px;
+}
+
+.coach-seats-amount > p, .coach-seats-price > p {
+  margin-bottom: 22px;
+}
+
+.seats-amount-title, .seats-price-title, .coach-services-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #928F94;
+}
+
+.seats-amount-num {
+  color: #000000;
+}
+
+.seats-amount-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.seats-amount-num {
+  font-family: 'Roboto-bold';
+}
+
+.coach-seats-price {
+  margin-left: 80px;
+}
+
+.seats-price-text {
+  display: flex;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.seats-price-text > span {
+  margin-left: 10px;
+}
+
+.coach-services {
+  margin-top: 33px;
+}
+
+.coach-services-text {
+  margin-bottom: 20px;
+}
+
+.coach-services-img {
+  display: flex;
+}
+
+.service-move {
+  position: relative;
+}
+
+.service-wifi-empty, .service-linens-empty, .service-air, .service-wifi, .service-linens, .service-coffee, .service-air-selected, .service-wifi-selected, .service-linens-selected, .service-coffee-selected {
+  display: flex;
+  width: 36px;
+  height: 35px;
+  margin-right: 13px;
+  border: 1px solid #292929;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.service-wifi-empty {
+  background-image: url(../../media/images/wifi-black.png);
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.service-linens-empty {
+  background-image: url(../../media/images/linens-black.png);
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.service-air-selected, .service-wifi-selected, .service-linens-selected {
+  background-color: #FDB935;
+  border: none;
+}
+
+.service-wifi:hover, .service-linens:hover {
+  background-color: #FFA800;
+  transition: background-color 300ms ease;
+}
+
+.service-air {
+  background-image: url(../../media/images/air-black.png);
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.service-wifi {
+  background-image: url(../../media/images/wifi-black.png);
+}
+
+.service-linens {
+  background-image: url(../../media/images/linens-black.png);
+}
+
+.service-coffee {
+  background-image: url(../../media/images/cup-black.png);
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.service-air-selected {
+  background-image: url(../../media/images/air-white.png);
+}
+
+.service-wifi-selected {
+  background-image: url(../../media/images/wifi-white.png);
+}
+
+.service-linens-selected {
+  background-image: url(../../media/images/linens-white.png);
+}
+
+.service-coffee-selected {
+  background-image: url(../../media/images/cup-white.png);
+}
+
+.service-included {
+  background-color: #FFA800;
+  opacity: 0.5;
+  border: none;
+}
+
+.service-description {
+  position: absolute;
+  min-width: 84px;
+  min-height: 32px;
+  left: -32px;
+  top: 40px;
+  background: #F5F4F6;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #292929;
+  padding: 7px;
+  text-align: center;
+}
+
+.coach-seats-selected {
+  width: 200px;
+  height: 72px;
+  background: #F3F3F3;
+  border-radius: 5px;
+  margin: 4px 42px 0 auto;
+  display: flex;
+}
+
+.coach-seats-selected > p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #292929;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.coach-description {
+  border-bottom: 1px dashed #C4C4C4;
+  margin-bottom: 33px;
+}
+
+.seats-info-first, .seats-info-second, .seats-info-third, .seats-info-fourth {
+  display: flex;
+  position: relative;
+  width: 920px;
+  height: 145px;
+  margin: 0 17px 80px 21px;
+}
+
+.seats-info-first {
+  background-image: url(../../media/images/coach-first.png);
+}
+
+.seats-info-second {
+  background-image: url(../../media/images/coach-second.png);
+}
+
+.seats-info-third {
+  background-image: url(../../media/images/coach-third.png);
+}
+
+.seats-info-fourth {
+  background-image: url(../../media/images/coach-fourth.png);
+}
+
+.coach-button, .coach-button-disable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 222px;
+  height: 60px;
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #FFA800;
+  border: none;
+  border-radius: 5px;
+  margin: 63px 0 124px auto;
+  cursor: pointer;
+}
+
+.coach-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all 300ms ease-in-out;
+} 
+
+.coach-button:focus {
+  background-color: transparent;
+  border: 1px solid #FFA800;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: #FFA800;
+  transition: all 300ms ease-in-out;
+} 
+
+.coach-button-inactive {
+  background-color: #928F94;
+}
+
+.coach-button-disable {
+  background-color: #928F94;
+  cursor: not-allowed;
+}
+
+.scheme-seats-first, .scheme-seats-second, .scheme-seats-third, .scheme-seats-fourth {
+  position: absolute;
+  width: 89.63px;
+  height: 114px;
+  top: 27px;
+  left: 131px;
+}
+
+.scheme-seats-fourth {
+  width: 717.63px;
+  height: 26px;
+}
+
+.seat-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.seat-top-left {
+  width: 27px;
+  height: 32px;
+  top: 1px;
+  left: 2px;
+}
+.seat-bot-left {
+  width: 27px;
+  height: 32px;
+  top: 33px;
+  left: 2px;
+}
+.seat-side-left {
+  width: 43px;
+  height: 25px;
+  top: 86px;
+  left: 2px;
+}
+
+.seat-top-right {
+  width: 27px;
+  height: 32px;
+  top: 1px;
+  left: 62px;
+}
+.seat-bot-right {
+  width: 27px;
+  height: 32px;
+  top: 33px;
+  left: 62px;
+}
+.seat-side-right {
+  width: 43px;
+  height: 25px;
+  top: 86px;
+  left: 45px;
+}
+
+.seat-have {
+  color: #000000;
+  background-color: #F2F2F2;
+  cursor: pointer;
+}
+
+.seat-have:hover {
+  box-sizing: border-box;
+  border: 2px solid #FFA800;
+  z-index: 1;
+}
+
+.seat-not-have {
+  color: #F2F2F2;
+  background-color: #CCCCCC;
+  cursor: not-allowed;
+}
+
+.seat-selected {
+  box-sizing: border-box;
+  border: 2px solid #FFA800;
+  z-index: 1;
+}
+
+/* fourth class */
+
+.seat-win-top, .seat-aisle-top, .seat-aisle-bot, .seat-win-bot {
+  width: 30px;
+  height: 20px;
+  left: 11px;
+}
+
+.seat-win-top {
+  top: 5px;
+}
+
+.seat-aisle-top {
+  top: 27px;
+}
+
+.seat-aisle-bot {
+  top: 65px;
+  left: 57px;
+}
+
+.seat-win-bot {
+  top: 87px;
+}
+
+/* first class */
+
+.seat-left, .seat-right {
+  width: 30px;
+  height: 60px;
+  top: 1px;
+}
+
+.seat-left {
+  left: 2px;
+}
+
+.seat-right {
+  left: 60px;
+}
+
+.total-price {
+  display: flex;
+  margin: 0 38px 32px 835px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFA800;
+}
+
+.total-price > span {
+  margin-left: 5px;
+  width: 14px;
+  height: 17px;
+  background-size: cover;
+  align-self: center;
+}

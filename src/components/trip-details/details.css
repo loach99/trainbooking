@@ -1,0 +1,305 @@
+.details-main {
+  width: 360px;
+  background-color: #3E3C41;
+}
+
+.details-line {
+  width: 100%;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.details-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 108px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.details-title-text {
+  font-family: 'Roboto-medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #E5E5E5;
+}
+
+.details-there {
+  margin: 16px 26px 53px 26px;
+}
+
+.details-there-head {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 55px;
+}
+
+.there-head-img {
+  display: flex;
+  width: 32px;
+  height: 26px;
+  background-image: url(../../media/images/Subtract.png);
+  cursor: pointer;
+  align-self: self-end;
+}
+
+.there-head-title {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-left: 12px;
+}
+
+.there-head-date {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.there-head-open {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../media/images/show-down.png);
+  cursor: pointer;
+}
+
+.there-train-number, .there-train-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.there-train-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #E5E5E5;
+}
+
+.there-train-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.there-train-name {
+  margin-top: 20px;
+}
+
+.there-route {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  position: relative;
+}
+
+.there-time {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.there-date {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #928F94;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.there-city {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.there-station {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #928F94;
+}
+
+.there-arrow-time {
+  position: absolute;
+  top: -20px;
+  left: 132px;
+}
+
+.there-travel-time {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #E5E5E5;
+}
+
+.there-direction-arrow {
+  display: flex;
+  width: 30px;
+  height: 20px;
+  background-image: url(../../media/images/dir-right.png);
+  margin: auto;
+}
+
+.there-route-to {
+  text-align: right;
+}
+
+.details-passengers {
+  margin: 14px 27px 46px 28px;
+}
+
+.details-passengers-head {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+
+.pass-head-img {
+  display: flex;
+  width: 26px;
+  height: 26px;
+  background-image: url(../../media/images/man.png);
+}
+
+.pass-head-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin-left: 17px;
+  margin-right: auto;
+}
+
+.pass-head-open-down, .pass-head-open-up {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../media/images/show-down.png);
+  cursor: pointer;
+}
+
+.pass-head-open-down {
+  background-image: url(../../media/images/show-down.png);
+}
+
+.pass-head-open-up {
+  background-image: url(../../media/images/show-up.png);
+}
+
+.pass-amount-price {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.pass-amount {
+  display: flex;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #E5E5E5;
+  margin-right: auto;
+}
+
+.amount {
+  margin-right: 5px;
+}
+
+.pass-price {
+  display: flex;
+  align-items: baseline;
+}
+
+.pass-price-text {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.pass-price-sign {
+  display: flex;
+  margin-left: 7px;
+  width: 14px;
+  height: 17px;
+  background-image: url(../../media/images/sign.png);
+  background-size: cover;
+}
+
+.details-total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 109px;
+}
+
+.details-total-line {
+  display: flex;
+}
+
+.details-total-text {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  align-self: flex-end;
+  margin-right: 70px;
+}
+
+.total-price-text {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFA800;
+}
+
+.details-total-sign {
+  display: flex;
+  width: 26px;
+  height: 32px;
+  background-image: url(../../media/images/total-sign.png);
+  margin-left: 10px;
+  align-self: center;
+}
